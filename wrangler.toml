@@ -1,0 +1,16 @@
+name = "hack-the-insurance"
+main = "src/index.ts"
+compatibility_date = "2023-12-06"
+compatibility_flags = [ "nodejs_compat" ]
+
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTOR_INDEX"
+index_name = "vector-index"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "database"
+database_id = "ced8440d-de8f-4593-bcdd-0540fdce7b24"
